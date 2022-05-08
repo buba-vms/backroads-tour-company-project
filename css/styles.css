@@ -657,7 +657,7 @@ Contact
   .contact-form {
     align-self: flex-start;
     flex: 1 1 auto;
-    max-width: 100%;
+    max-width: calc(100% - 2rem);
     padding-left: 2rem;
   }
 }
