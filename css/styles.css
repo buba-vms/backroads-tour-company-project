@@ -647,7 +647,7 @@ Contact
   color: var(--clr-primary-5);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1170px) {
   .contact-center {
     display: flex;
     flex-wrap: wrap;
