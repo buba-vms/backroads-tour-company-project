@@ -103,7 +103,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1170px) {
   h1 {
     font-size: 4rem;
   }
@@ -165,14 +165,14 @@ p {
 }
 
 .section-center {
-  width: 90vw;
+  width: 80vw;
   margin: 0 auto;
   max-width: 1500px;
 }
 
 @media screen and (min-width: 992px) {
   .section-center {
-    width: 95vw;
+    width: 90vw;
   }
 }
 
@@ -318,7 +318,6 @@ Hero
 .hero-banner {
   text-align: center;
   color: var(--clr-white);
-  padding: 0 3rem;
 }
 
 .hero-banner h1 {
@@ -646,6 +645,25 @@ Contact
   background: var(--clr-primary-1);
   color: var(--clr-primary-5);
 }
+@media screen and (max-width: 900px) {
+  .contact-form {
+    display: block;
+  }
+
+  .btn-submit {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .form-control::placeholder {
+    text-align: center;
+  }
+}
 
 @media screen and (min-width: 1170px) {
   .contact-center {
@@ -657,7 +675,7 @@ Contact
   .contact-form {
     align-self: flex-start;
     flex: 1 1 auto;
-    max-width: calc(100% - 2rem);
+    max-width: 100%;
     padding-left: 2rem;
   }
 }
